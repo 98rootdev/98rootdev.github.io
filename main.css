@@ -1,5 +1,13 @@
 /* CSS document for recurring elements such as navigation bar and footer */
 
+#container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(240,240,245);
+}
+
+
 #nav{
     background-color: rgb(90,90,90);
     height: 70px;
@@ -23,7 +31,12 @@ a{
     transition: .2s ease;
 }
 
-
+#mainwall {
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    
+}
 
 /*
 
