@@ -3,37 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <title>Sign up</title>
+    <!-- Link this html file to the correct css file, for styling. -->
     <link href="/css/signup.css" rel="stylesheet" type="text/css">
+    <script src="/index.js" type="text/javascript"></script>
 </head>
 <body>
    
    <div id="container">
       
-            <div id="signupbox">
-      <h1>Sign up for free here</h1>
+           <!-- All elements related to sign up is located here -->
+             <div id="signupbox">
+      <!-- Header for the signup box. -->
+      <h1>Sign up for free</h1>
       
-      <form action="/signup.html">
-          First name <br> <input class="userInput" type="text" name="firstName" value=""><br>
-          Last name <br> <input class="userInput" type="text" name="lastName" value=""><br>
-          Email <br> <input class="userInput" type="text" name="email" value=""><br>
-          Password <br> <input class="userInput" type="text" name="password" value=""><br>
-          Confirm password <br> <input class="userInput" type="text" name="password" value=""><br>
-          Phone number <br> <input class="userInput" type="text" name="phonenumber" value=""><br>
-          Occupation <br> <input class="userInput" type="text" name="occupation" value=""><br>
-          <br> <input id="submitBtn" type="submit" value="Sign up!">
+      <!-- The whole signup from: -->
+         <form id="signupForm" action="/signup.html">
+          <br> <input class="userInput" type="text" name="firstName" placeholder="First name"><br>
+          <br> <input class="userInput" type="text" name="lastName" placeholder="Last name"> <br>
+          <br> <input class="userInput" type="text" name="username" placeholder="Username"><br>
+          <br> <input class="userInput" type="text" name="email" placeholder="Email"><br>
+          <br> <input class="userInput" type="text" name="password" placeholder="Password"><br>
+          <br> <input class="userInput" type="text" name="password" placeholder="Confirm password"><br>
+          <br> <input class="userInput" type="text" name="phonenumber" placeholder="Phone number"><br>
+          <br> <input class="userInput" type="text" name="occupation" placeholder="Occupation"><br>
+          <br> <button id="submitBtn">Create account!</button>
       </form> 
     </div>
        
        
     <div id="nav"> <!-- Navigation bar -->
     
+    <!-- Button that links to mainpage, index-->
     <a id="home" href="/index.html">
     <p>Home</p></a>
     </div>
     
-    <img id="mainwall" src="/images/gradientimage.jpg">
-    
+    <!-- The image we're using for the wallpaper -->
+    <img id="mainwall" src="/images/gradientimage.jpg">   
  </div>
-    
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
