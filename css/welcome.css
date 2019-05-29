@@ -35,6 +35,11 @@ a{
     transition: .2s ease;
     z-index: 1000;
     
+    
+}
+
+#nav p:hover {
+    color: rgb(100,100,100);
 }
 
 #mainwall {
@@ -49,17 +54,20 @@ a{
 
 #welcomebox{
     position: absolute;
-    top: 150px;
+    top: 190px;
     height: 400px;
     width: 800px;
     z-index: 100;
-    background-color: rgb(240,240,245);
+    background-color: white;
     left: 25%;
+    box-shadow: 0px 0px 30px -20px black;
 }
 h1{
     text-align: center;
     font-size: 30px;
     z-index: 0;
+    color: rgb(146,194,205);
+    font-family: Helvetica;
     
 }
 
