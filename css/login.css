@@ -17,7 +17,7 @@
     text-align: right;
     overflow: hidden;
     box-shadow: 0px 0px 50px -20px black;
-    z-index: 100;
+    z-index: 1000;
 }
 
 a{
@@ -48,4 +48,22 @@ a{
     opacity: 0.3;
     padding-top: 0px;
     z-index: 0; 
+}
+
+#loginbox{
+    position: absolute;
+    top: 92px;
+    height: 680px;
+    width: 800px;
+    z-index: 100;
+    background-color: white;
+    left: 25%;
+    box-shadow: 0px 0px 30px -20px black;
+    animation: loginboxanim 1s;
+    
+}
+
+@keyframes loginboxanim{
+    from {top: -780px;} 
+    to {top: 92px;}
 }
