@@ -1,0 +1,49 @@
+#container {
+    height: 780px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(240,240,245);
+    border-radius: 5px;
+    z-index: -1000;
+}
+
+
+#nav{
+    background-color: rgb(146,194,205);
+    height: 70px;
+    width: 100%;
+    text-align: right;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px -20px black;
+    z-index: 1000;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav p{
+    color: rgb(240,240,245);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    padding: 23px 35px 0 35px;
+    height: 70px;
+    display: inline-block;
+    transition: .2s ease;
+    z-index: 1000;
+    
+    
+}
+
+#nav p:hover {
+    color: rgb(100,100,100);
+}
+
+#mainwall {
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    padding-top: 0px;
+    z-index: 0; 
+}
