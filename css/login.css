@@ -1,5 +1,4 @@
-/* CSS document for recurring elements such as navigation bar and footer */
-
+/* Where all elements are put, main container. */
 #container {
     height: 780px;
     width: 100%;
@@ -9,7 +8,7 @@
     z-index: -1000;
 }
 
-
+/* The top navigation bar */
 #nav{
     background-color: rgb(146,194,205);
     height: 70px;
@@ -20,10 +19,12 @@
     z-index: 1000;
 }
 
+/* The link styling in the nav bar */
 a{
     text-decoration: none;
 }
 
+/* The top nav bar text styling*/
 #nav p{
     color: rgb(240,240,245);
     font-size: 20px;
@@ -42,6 +43,7 @@ a{
     color: rgb(100,100,100);
 }
 
+/* Main wallpaper for all pages */
 #mainwall {
     height: 100%;
     width: 100%;
@@ -50,6 +52,7 @@ a{
     z-index: 0; 
 }
 
+/* The signup div, where all signup related items are put. Not the main container. */
 #loginbox{
     position: absolute;
     top: 92px;
@@ -60,10 +63,55 @@ a{
     left: 25%;
     box-shadow: 0px 0px 30px -20px black;
     animation: loginboxanim 1s;
-    
+    border-radius: 5px;
 }
 
+/* Signup Header */
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    z-index: 0;
+    color: rgb(222, 189, 215);
+    font-family: Helvetica;
+}
+
+/* Slide in animation for use in the loginbox div */
 @keyframes loginboxanim{
     from {top: -780px;} 
     to {top: 92px;}
+}
+
+/* Styling for the input class, just the boxes where you type */
+.userInput {
+    height: 30px;
+    font-family: Helvetica;
+    width: 280px;
+    margin-left: -70px;
+    background-color: rgb(240,240,240);
+    border-width: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    
+}
+
+/* The whole form for the login */
+form {
+    padding-left: 325px;
+}
+
+/* The signup button */
+#loginBtn {
+    width: 250px;
+    font-size: 30px;
+    border: hidden;
+    margin-top: 30px;
+    margin-left: -50px;
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(222, 189, 215);
+}
+
+#loginBtn:hover {
+    background-color: rgb(100,100,100);
 }

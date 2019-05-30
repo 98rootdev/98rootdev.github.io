@@ -84,12 +84,15 @@ h1{
 
 /* Styling for the input class, just the boxes where you type */
 .userInput {
-    height: 20px;
+    height: 30px;
     font-family: Helvetica;
     width: 280px;
     margin-left: -70px;
-    background-color: rgb(235,235,235);
-    border-radius: 0;
+    background-color: rgb(240,240,240);
+    border-width: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    
 }
 
 /* The whole form for the signup */
