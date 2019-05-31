@@ -7,10 +7,10 @@ var submitBtn = document.getElementById("submitBtn");
 var users = [];
 
 //Arrays which contain registrered users.
-var regfname = [];
-var reglname = [];
-var regpassword = [];
-var regphonenumber = [];
+var regfname = ["Kev"];
+var reglname = ["B"];
+var regpassword = ["psswd"];
+var regphonenumber = ["911"];
 
 
 function createUser(){
@@ -22,6 +22,6 @@ function createUser(){
     }
 }
 
-submitBtn.addEventListener(click, function test(){
-    regfname.push("Hei");
-}
+submitBtn.addEventListener("click", function test(){
+    regfname.push("Hei"));
+};
