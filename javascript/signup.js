@@ -25,3 +25,8 @@ function createUser(){
 submitBtn.addEventListener("click", function test(){
     regfname.push("Hei"));
 };
+     
+                           
+function createUser(){
+    oninput
+}                           
