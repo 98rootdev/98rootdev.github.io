@@ -1,6 +1,7 @@
 /* CSS document for recurring elements such as navigation bar and footer */
 
 #container {
+    display: grid;
     height: 780px;
     width: 100%;
     overflow: hidden;
@@ -48,6 +49,7 @@ a{
     opacity: 0.3;
     padding-top: 0px;
     z-index: 0; 
+    position: absolute;
 }
 
 #welcomebox{
