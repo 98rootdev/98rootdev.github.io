@@ -1,7 +1,7 @@
 var users = []
 
 function createUser(){
-    if (document.getElementById("firstname").value !="" || document.getElementById("lastname").value) !="" || document.getElementById("username").value !="" || document.getElementById("email").value != "" || document.getElementById("password").value !="" || document.getElementById("phonenumber").value !=""{
+    if (document.getElementById("firstname").value !="" || document.getElementById("lastname").value !="" || document.getElementById("username").value !="" || document.getElementById("email").value != "" || document.getElementById("password").value !="" || document.getElementById("phonenumber").value !=""){
     
     var firstname = document.getElementById("firstname").value;
     var lastName = document.getElementById("lastname").value;
