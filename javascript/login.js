@@ -2,15 +2,17 @@ var users = [];
 
 
 function loginValid(){
-    if(document.getElementById("username") !="" || document.getElementById("password") !="" && document.getElementById("username") = users[].username || document.getElementById("password") = users[].password
-       
-       
-        //&& both inputs is part of same object){
-        login = true;
-        //load index.html;
-       
-    }else{
-        login = false;
-        alert("Wrong username or password, please try again.");
+    if(document.getElementById("username").value !="" || document.getElementById("password").value !="")
+            for(i=0; i < users.length; i++){
+    if(users[i].username = document.getElementById("username").value){
+        if(users[i].password = document.getElementById("password").value;){
+            return true;
+            
+        }else{
+            return false;
+            alert("Wrong username or password, please try again.");
+        }
+           
     }
-}
+    
+}       

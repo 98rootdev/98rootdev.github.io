@@ -1,21 +1,21 @@
 var users = [
-        (firstname: Carolyn,
-    lastname: Johnsen,
-    username: carojohns,
-    email: carolyn95@outlook.com,
-    password: supersecret123),
+        {firstname: "Carolyn",
+    lastname: "Johnsen",
+    username: "carojohns",
+    email: "carolyn95@outlook.com",
+    password: "supersecret123"},
             
-        (firstname: Grace,
-    lastname: Palmer,
-    username: palmface,
-    email: grace.face@gmail.com,
-    password: little87Max),
+        {firstname: "Grace",
+    lastname: "Palmer",
+    username: "palmface",
+    email: "grace.face@gmail.com",
+    password: "little87Max"},
     
-        (firstname: Benjamin,
-    lastname: Bannerman,
-    username: benniboi,
-    email: bennisniper2000@yahoo.com,
-    password: benniiscool)
+        {firstname: "Benjamin",
+    lastname: "Bannerman",
+    username: "benniboi",
+    email: "bennisniper2000@yahoo.com",
+    password: "benniiscool"}
 ]
 
 function createUser(){
