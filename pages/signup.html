@@ -18,12 +18,12 @@
       
       <!-- The whole signup from: -->
          <form id="signupForm">
-          <br> <input class="userInput" type="text" name="firstName" id="firstName[]" placeholder="First name"><br>
-          <br> <input class="userInput" type="text" name="lastName" id="lastName" placeholder="Last name"> <br>
-          <br> <input class="userInput" type="text" name="username" id="username" placeholder="Username"><br>
-          <br> <input class="userInput" type="text" name="email" id="email" placeholder="Email"><br>
-          <br> <input class="userInput" type="text" name="password" id="password" placeholder="Password"><br>
-          <br> <input class="userInput" type="text" name="phonenumber" id="phonenumber" placeholder="Phone number"><br>
+          <br> <input class="userInput" type="text" name="users[][firstName]" placeholder="First name"><br>
+          <br> <input class="userInput" type="text" name="users[][lastName]" placeholder="Last name"> <br>
+          <br> <input class="userInput" type="text" name="username" placeholder="Username"><br>
+          <br> <input class="userInput" type="text" name="users[]email" placeholder="Email"><br>
+          <br> <input class="userInput" type="text" name="password" placeholder="Password"><br>
+          <br> <input class="userInput" type="text" name="phonenumber" placeholder="Phone number"><br>
           <br> <button name="submitBtn" id="submitBtn" onclick="createUser()">Create account!</button>
       </form> 
     </div>

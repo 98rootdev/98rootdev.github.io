@@ -11,8 +11,19 @@ var regfname = ["Kev"];
 var reglname = ["B"];
 var regpassword = ["psswd"];
 var regphonenumber = ["911"];
+                   
 
+function createUser(){
+users.push[
+    username: ,
+    password: ,
+    firstname: ,
+    lastname; ,
+    phonenumber: ,
+]
+}
 
+/*
 function createUser(){
     if(firstname.value != "", lastname.value != "", username.value != "", password.value != "", phonenumber.value != "", occupation.value != ""){
         regfname.push(firstname.value), reglname.push(lastname.value), users.push(username.value), regpassword.push(password.value), regphonenumber.push(phonenumber.value);
@@ -29,4 +40,4 @@ submitBtn.addEventListener("click", function test(){
                            
 function createUser(){
     oninput
-}                           
+}     */                      
