@@ -14,7 +14,7 @@
     width: 100%;
     text-align: right;
     box-shadow: 0px 0px 50px -20px black;
-    z-index: 1000;
+    z-index: 100;
 }
 
 a{
@@ -26,11 +26,12 @@ a{
     font-size: 20px;
     text-align: center;
     margin-top: 0;
-    padding: 23px 35px 0 35px;
+    padding: 23px 35px 0 12px;
     height: 70px;
     display: inline-block;
     transition: .2s ease;
-    z-index: 1000;
+    z-index: 10;
+    font-family: Helvetica;
     
     
 }
@@ -51,8 +52,7 @@ a{
 /* Dropdown Button */
 #dropbtn {
     transition: .7s ease;
-    padding: 16px;
-    font-size: 16px;
+    padding: 15px;
     border: none;
     background-color: rgb(146, 194, 205);
 }
@@ -105,18 +105,19 @@ a{
     display: none;
     position: absolute;
     background-color: #f1f1f1;
+    font-family: Helvetica;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 2000;
+    box-shadow: 0px 4px 50px 0px rgba(0,0,0,0.2);
+    z-index: -0;
     right: 0;
 }
 
 
 /* Stuff/links inside the dropdown */
 #dropdown-content a {
-    color: black;
+    color: rgb(100, 100, 100);
     padding: 12px 16px;
-    text-decoration: none;
+    text-decoration:none;
     display: block;
     right: 0;
 }

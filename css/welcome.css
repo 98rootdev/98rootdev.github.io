@@ -30,13 +30,12 @@ a{
     font-size: 20px;
     text-align: center;
     margin-top: 0;
-    padding: 23px 35px 0 35px;
+    padding: 23px 35px 0 12px;
     height: 70px;
     display: inline-block;
     transition: .2s ease;
     z-index: 1000;
-    
-    
+    font-family: Helvetica;  
 }
 
 #nav p:hover {
@@ -65,8 +64,8 @@ a{
 
 #infoKanban{
     font-size: 29px;
-    color: rgb(100,100,100);
-    font-family: verdana;
+    color: rgb(222, 189, 215);
+    font-family: Helvetica;
     text-align: center;
     padding: 0px 200px 200px 200px;
 }
