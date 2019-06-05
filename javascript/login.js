@@ -1,18 +1,37 @@
-var users = [];
+/**
+ *
+ * Checks whether or not the given username and password is valid for some user.
+ *
+ * @returns
+ */
+function login() {
 
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
 
-function loginValid(){
-    if(document.getElementById("username").value !="" || document.getElementById("password").value !="")
-            for(i=0; i < users.length; i++){
-    if(users[i].username = document.getElementById("username").value){
-        if(users[i].password = document.getElementById("password").value;){
-            return true;
-            
-        }else{
-            return false;
-            alert("Wrong username or password, please try again.");
+    // If both username and password is NOT empty:
+    if (!(username == "" && password == "")) {
+
+        // Look through array of all users to check if given credentials are valid for any user.
+        for (let i = 0; i < users.length; i++) {
+
+            let validUsername = users[i].username;
+            let validPassword = users[i].password;
+
+            if (username == validUsername && password == validPassword) {
+
+                // The username and the password is correct.
+                window.location.replace("../pages/index.html");
+                return true;
+            }
         }
-           
+
+        // The username or password is incorrect.
+        alert("Wrong username or password, please try again.");
+        return false;
     }
-    
-}       
+
+    // Fields are empty.
+    alert("Fields cannot be empty!");
+    return false;
+}

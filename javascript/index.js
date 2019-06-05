@@ -44,15 +44,17 @@ function test() {
 
     setupSnapGrid(snapGridSize);
 
-    let card1 = createCard("Item 1");
+    let card1 = createCard("Item 1", users[0].username);
     snapCardToColumnAndGridAtIndex(card1, 0, 0, snapGridSize);
 
-    let card2 = createCard("Item 2", document.getElementById("doing-container"));
+    let card2 = createCard("Item 2", users[1].username, document.getElementById("doing-container"));
     snapCardToColumnAndGridAtIndex(card2, 1, 0, snapGridSize);
 
-    let card3 = createCard("Item 3");
+    let card3 = createCard("Item 3", users[2].username);
     snapCardToColumnAndGridAtIndex(card3, 0, 1, snapGridSize);
 
+
+    setupCreateCard();
 }
 
 /**
@@ -72,13 +74,14 @@ function snapCardToColumnAndGridAtIndex(card, columnIndex, index, snapGridSize) 
 /**
  * Creates a new card
  * @param content sets text inside of card
+ * @param username the username to set on the card.
  * @param container the card will be added to
  * @returns {HTMLDivElement} a new card (div)
  */
-function createCard(content, container = document.getElementById("todo-container")) {
+function createCard(content, username, container = document.getElementById("todo-container")) {
     let card = document.createElement("div");
     card.className = "card";
-    card.innerHTML = content;
+    card.innerHTML = content + '<br>' + username;
     addEventListenersToCard(card);
     container.appendChild(card);
     return card;
@@ -195,7 +198,6 @@ function onMouseMove(e, card) {
 }
 
 
-
 /**
  * Action for when mousebutton is released
  * @param e the event in question
@@ -212,6 +214,44 @@ function onMouseUp(e, card) {
 
         currentCard.style.backgroundColor = "#BABF12";
     }
+}
+
+function refreshUserDropDown() {
+    let dropdown = document.getElementById("dropdown-user");
+
+    dropdown.innerHTML = '';
+
+    for (let i = 0; i < window.users.length; i++) {
+        let user = users[i];
+        let dropDownUserElement = document.createElement("option");
+        dropDownUserElement.innerHTML = user.username;
+        dropdown.appendChild(dropDownUserElement);
+    }
+}
+
+function setupCreateCard() {
+
+    let dropdown = document.getElementById("dropdown-user");
+
+    for (let i = 0; i < window.users.length; i++) {
+        let user = users[i];
+        let dropDownUserElement = document.createElement("option");
+        dropDownUserElement.innerHTML = user.username;
+        dropdown.appendChild(dropDownUserElement);
+    }
+
+    let button = document.getElementById("button-create-card");
+    button.addEventListener("click", () => {
+        onAddNewCardClicked();
+    });
+}
+
+function onAddNewCardClicked() {
+    let dropdownElement = document.getElementById("dropdown-user");
+    let username = dropdownElement.options[dropdownElement.selectedIndex].value;
+    let content = document.getElementById("textbox-card-content").value;
+    let newCard = createCard(content, username);
+    snapCardToColumnAndGridAtIndex(newCard, 0, 5, snapGridSize);
 }
 
 

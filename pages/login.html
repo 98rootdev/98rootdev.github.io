@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link href="../css/login.css" rel="stylesheet" type="text/css">
+    <script src="../javascript/signup.js"></script>
     <script src="../javascript/login.js"></script>
 </head>
 <body>
@@ -16,9 +17,9 @@
       <h1>Log in to your account</h1>
       
       <!-- The whole signup from: -->
-         <form id="loginForm">
-          <br> <input class="userInput" type="text" name="email" id="email" placeholder="Email"><br>
-          <br> <input class="userInput" type="text" name="password" id="password"placeholder="Password"><br>
+         <form id="loginForm" onsubmit="return false">
+          <br> <input class="userInput" type="text" name="username" id="username" placeholder="Username"><br>
+          <br> <input class="userInput" type="text" name="password" id="password" placeholder="Password"><br>
           <br> <button id="loginBtn" onclick="login()">Log in!</button>
       </form> 
     </div>
