@@ -1,22 +1,38 @@
-var users = []
+var users = [
+        {firstname: "Carolyn",
+    lastname: "Johnsen",
+    username: "carojohns",
+    email: "carolyn95@outlook.com",
+    password: "supersecret123"},
+            
+        {firstname: "Grace",
+    lastname: "Palmer",
+    username: "palmface",
+    email: "grace.face@gmail.com",
+    password: "little87Max"},
+    
+        {firstname: "Benjamin",
+    lastname: "Bannerman",
+    username: "benniboi",
+    email: "bennisniper2000@yahoo.com",
+    password: "benniiscool"}
+]
 
 function createUser(){
-    if (document.getElementById("firstname").value !="" || document.getElementById("lastname").value) !="" || document.getElementById("username").value !="" || document.getElementById("email").value != "" || document.getElementById("password").value !="" || document.getElementById("phonenumber").value !=""{
+    if (document.getElementById("firstname").value !="" || document.getElementById("lastname").value !="" || document.getElementById("username").value !="" || document.getElementById("email").value != "" || document.getElementById("password").value !=""){
     
     var firstname = document.getElementById("firstname").value;
     var lastName = document.getElementById("lastname").value;
     var username = document.getElementById("username").value;
     var email = document.getElementById("email").value;    
     var password = document.getElementById("password").value;
-    var phonenumber = document.getElementById("phonenumber").value;
         
     users.push({
     firstname: firstname,
     lastname: lastname,
     username: username,
     email: email,
-    password: password,
-    phonenumber: phonenumber
+    password: password
 
 });
         console.log(users[0])

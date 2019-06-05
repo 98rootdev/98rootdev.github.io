@@ -14,7 +14,7 @@
     width: 100%;
     text-align: right;
     box-shadow: 0px 0px 50px -20px black;
-    z-index: 11;
+    z-index: 4;
 }
 
 a{
@@ -30,7 +30,7 @@ a{
     height: 70px;
     display: inline-block;
     transition: .2s ease;
-    z-index: 10;
+    z-index: 3;
     font-family: Helvetica;
     
     
@@ -44,8 +44,8 @@ a{
     height: 100%;
     width: 100%;
     padding-top: 0px;
-    opacity: 0.9;
-    z-index: 15;
+    opacity: 0.3;
+    z-index: 0;
 }
 
 /*---------------------------------*/
@@ -97,6 +97,7 @@ a{
     display: inline-block;
     float: right;
     background-color: black;
+    z-index: 1;
 }
 
 
@@ -135,14 +136,3 @@ a{
 #test{
 
 }
-
-/*
-
-Colors:
-
-222, 189, 215 - pink
-146, 194, 205 - dark blue
-279, 174, 146 - orange
-240, 240, 245 - "white"
-
-*/

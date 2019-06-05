@@ -1,7 +1,6 @@
 html, body {
-    width: 100%;
+    width: 99.%;
     height: 100%;
-    overflow: hidden;
 }
 
 .board-container {
@@ -11,21 +10,24 @@ html, body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    z-index: 9999;
+    z-index: 1;
 }
 
 .base-container {
     min-width: 300px;
     min-height: 400px;
-//border: 1px solid rgba(15, 15, 15, 0.2);
-    box-shadow: 0px 0px 20px 2px rgba(15, 15, 15, 0.2);
+    border: 1px solid rgba(15, 15, 15, 0.2);
+    border-radius: 5px;
     padding: 25px;
+    background-color: white;
 }
 
 .header {
     width: 100%;
-    font-family: Oxygen, sans-serif;
-    font-size: 22px;
+    font-family: Helvetica;
+    color: rgb(146, 194, 205);
+    margin-top: 10px;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -40,30 +42,42 @@ html, body {
 }
 
 .card {
-//border-bottom: 1px solid ;
+    border-bottom: 1px solid ;
     width: 300px;
     height: 40px;
-    position:absolute;
+    position: absolute;
     background-color: #F44336;
-    color: #FFFFFF;
-    font-family: Oxygen, sans-serif;
+    color: white;
+    font-family: Helvetica;
     font-size: 20px;
     padding: 7px;
     margin: 10px 0 10px 0;
-    box-shadow: inset 1px 1px 10px 0 rgba(15, 15, 15, 0.2);
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .snap {
-    width: 301px;
+    width: 314px;
     height: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .over {
-    background-color: rgba(15, 15, 15, 0.2);
-    border: 2px solid #F44336;
+    background-color: rgba(200,200,200);
     border-radius: 5px;
 }
+
+
+/* 
+Standard box shadow:
+box-shadow: 0px 0px 10px 1px rgba(15, 15, 15, 0.2);
+
+Colors:
+
+222, 189, 215 - pink
+146, 194, 205 - dark blue
+279, 174, 146 - orange
+240, 240, 245 - "white"
+
+*/
