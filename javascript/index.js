@@ -146,7 +146,7 @@ function isAnyElementsColliding(element1, element2) {
 function snapCardToGrid(card, container) {
     let box = container.getBoundingClientRect();
     card.style.left = box.x + "px";
-    card.style.top = box.y - 10 + "px";
+    card.style.top = box.y - 15 + "px";
 }
 
 /**
@@ -158,7 +158,7 @@ function snapCurrentCardToGrid(card, container) {
     if (currentCard != null) {
         let box = container.getBoundingClientRect();
         currentCard.style.left = box.x + "px";
-        currentCard.style.top = box.y - 10 + "px";
+        currentCard.style.top = box.y - 15 + "px";
     }
 }
 
