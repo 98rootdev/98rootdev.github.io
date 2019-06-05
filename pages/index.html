@@ -3,42 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link href="../css/main.css" rel="stylesheet" type="text/css"> 
-    <script src="/javascript/index.js" type="text/javascript"></script>
+    <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <link href="../css/kanbanboard.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  
-       <div id="container">
-       
-      
-    <div id="nav"> <!-- Navigation bar -->
-         <!--Drop down button -->
-    <div id="dropdown">
-    <button id="dropbtn">
-    <div class="line" id="line1"></div>
-    <div class="line" id="line2"></div>
-    <div class="line" id="line3"></div>
-    </button>
 
-    <div id="dropdown-content">
-    <a href="/pages/welcome.html">User</a>
-    <a href="/pages/welcome.html">Friends</a>
-    <a href="/pages/boards.html">My boards</a>
+<div id="container">
+
+
+    <div id="nav"> <!-- Navigation bar -->
+        <!--Drop down button -->
+        <div id="dropdown">
+            <button id="dropbtn">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+            </button>
+
+            <div id="dropdown-content">
+                <a href="/pages/welcome.html">User</a>
+                <a href="/pages/welcome.html">Friends</a>
+                <a href="/pages/boards.html">My boards</a>
             </div>
         </div>
-    
-    <a id="frontpage" href="/pages/welcome.html">
-    <p>Kanban 2.0</p></a>
-    
-    <a id="home" href="/pages/index.html">
-    <p>Home</p></a>
+        <!---->
+
+        <a id="frontpage" href="../pages/welcome.html">
+            <p>Kanban 2.0</p></a>
+
+        <a id="home" href="../pages/index.html">
+            <p>Home</p></a>
     </div>
-    
-    <img id="mainwall" src="/images/gradientimage.jpg">
-    
-    
- </div>
-   
-    
+
+
+
+
+    <div class="board-container">
+        <div id="todo-container" class="base-container">
+            <div class="header">To do</div>
+        </div>
+        <div id="doing-container" class="base-container">
+            <div class="header">Doing</div>
+        </div>
+        <div id="review-container" class="base-container">
+            <div class="header">Review</div>
+        </div>
+        <div id="done-container" class="base-container">
+            <div class="header">Done</div>
+        </div>
+    </div>
+
+
+    <img id="mainwall" src="../images/gradientimage.jpg">
+
+
+</div>
+
+<script src="../javascript/index.js" type="text/javascript"></script>
+
 </body>
 </html>
