@@ -45,7 +45,7 @@ a{
     width: 100%;
     padding-top: 0px;
     opacity: 0.9;
-    z-index: 15;
+    z-index: -90;
 }
 
 /*---------------------------------*/
