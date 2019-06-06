@@ -21,6 +21,22 @@ var users = [
         username: "benniboi",
         email: "bennisniper2000@yahoo.com",
         password: "benniiscool"
+    },
+    
+    {
+        firstname: "Kevin",
+        lastname: "Brenden",
+        username: "98rootdev",
+        email: "kevin@mail.com",
+        password: "passord"
+    },
+    
+    {
+        firstname: "Bernt Johan",
+        lastname: "Aspehaug",
+        username: "berntolini",
+        email: "bernt@yahoo.com",
+        password: "1234"
     }
 ];
 
