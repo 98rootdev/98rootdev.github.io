@@ -5,14 +5,14 @@
     height: 780px;
     width: 100%;
     overflow: hidden;
-    background-color: rgb(240,240,245);
+    background-color: #F0F0F5;
     border-radius: 5px;
     z-index: -1000;
 }
 
 
 #nav{
-    background-color: rgb(146,194,205);
+    background-color: #92C2CD;
     height: 70px;
     width: 100%;
     text-align: right;
@@ -26,7 +26,7 @@ a{
 }
 
 #nav p{
-    color: rgb(240,240,245);
+    color: #F0F0F5;
     font-size: 20px;
     text-align: center;
     margin-top: 0;
@@ -64,7 +64,7 @@ a{
 
 #infoKanban{
     font-size: 29px;
-    color: rgb(222, 189, 215);
+    color: #DEBDD7;
     font-family: Helvetica;
     text-align: center;
     padding: 0px 200px 200px 200px;
@@ -75,18 +75,33 @@ h1{
     text-align: center;
     font-size: 50px;
     z-index: 0;
-    color: rgb(146,194,205);
+    color: #92C2CD;
     font-family: Helvetica;
     
 }
 
 /*
+Standard box shadow:
+box-shadow: 0px 0px 10px 1px rgba(15, 15, 15, 0.2);
+
 
 Colors:
 
-222, 189, 215 - pink
-146, 194, 205 - dark blue
-279, 174, 146 - orange
-240, 240, 245 - "white"
+222, 189, 215 - "pink" - #DEBDD7
+
+146, 194, 205 - "dark blue" - #92C2CD
+
+229, 172, 145 - "orange" - #E5AC91
+
+240, 240, 245 - "white" - #F0F0F5
+
+100, 100, 100 - "Dark Gray" - #646464
+
+200, 200, 200 - "Gray" - #C8C8C8
+
+240, 240, 240 - "Light Gray" - #F0F0F0
 
 */
+
+
+

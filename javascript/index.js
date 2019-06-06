@@ -212,7 +212,7 @@ function onMouseUp(e, card) {
             y: currentCard.offsetTop - e.clientY
         };
 
-        currentCard.style.backgroundColor = "#BABF12";
+        currentCard.style.backgroundColor = "#DEBDD7";
     }
 }
 
