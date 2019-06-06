@@ -39,7 +39,7 @@ a{
     
     
 }
-
+/* For when you hover the mouse over one of the elements in the navbar. */
 #nav p:hover {
     color: #646464;
 }
@@ -113,7 +113,7 @@ form {
     background-color: #DEBDD7;
     font-family: Helvetica;
 }
-
+/* Changes the background for the login button when the mouse is hovering over it */
 #loginBtn:hover {
     background-color: #646464;
 }

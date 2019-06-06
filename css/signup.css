@@ -37,7 +37,7 @@ a{
     z-index: 1000;
     font-family: Helvetica;  
 }
-
+/* For when you hover the mouse over one of the elements in the navbar. */
 #nav p:hover {
     color: rgb(100,100,100);
 }
@@ -110,7 +110,7 @@ form {
     border-radius: 3px;
     background-color: #92C2CD;
 }
-
+/* Changes the background for the login button when the mouse is hovering over it */
 #submitBtn:hover {
     background-color: #646464;
 }
