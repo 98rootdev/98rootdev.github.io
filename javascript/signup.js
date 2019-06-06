@@ -1,3 +1,4 @@
+// Demo users which were randomly generated, plus ourselfs
 var users = [
     {
         firstname: "Carolyn",
@@ -40,7 +41,11 @@ var users = [
     }
 ];
 
+/* Function for creating a user, which later can be used to login in to Kanban 2.0 with. */
+
 function createUser() {
+    
+    // Checking if there are input in all fields.
     if (document.getElementById("firstname").value != ""
         || document.getElementById("lastname").value != ""
         || document.getElementById("username").value != ""
@@ -48,12 +53,14 @@ function createUser() {
         || document.getElementById("password").value != ""
     ) {
 
+        // Declaring the variables for further use
         var firstname = document.getElementById("firstname").value;
         var lastname = document.getElementById("lastname").value;
         var username = document.getElementById("username").value;
         var email = document.getElementById("email").value;
         var password = document.getElementById("password").value;
 
+        // Takes the whole form as one variable
         var userInfoDict = {
             firstname: firstname,
             lastname: lastname,
@@ -61,19 +68,15 @@ function createUser() {
             email: email,
             password: password
         };
-
+        //Pushes the input to our array declared earlier
         users.push(userInfoDict);
-
-        console.log(window.users[0]);
-
+        //Redirects us to the login page for easier access.
         window.location.replace("../pages/login.html");
 
     } else {
+        // If some fields are empty this is the response
         alert("Registration failed, please try again.")
     }
-
-    refreshUserDropDown();
-    createUser.preventDefault();
 }
 
 
