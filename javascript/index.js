@@ -44,13 +44,13 @@ function test() {
 
     setupSnapGrid(snapGridSize);
 
-    let card1 = createCard("Task 1", users[0].username);
+    let card1 = createCard("Turn ourselves into pickles", users[0].username);
     snapCardToColumnAndGridAtIndex(card1, 0, 0, snapGridSize);
 
-    let card2 = createCard("Task 2", users[1].username, document.getElementById("doing-container"));
-    snapCardToColumnAndGridAtIndex(card2, 1, 0, snapGridSize);
+    let card2 = createCard("Figure out the meaning of life", users[1].username, document.getElementById("doing-container"));
+    snapCardToColumnAndGridAtIndex(card2, 0, 0, snapGridSize);
 
-    let card3 = createCard("Task 3", users[2].username);
+    let card3 = createCard("Run nuclear reactor test", users[2].username);
     snapCardToColumnAndGridAtIndex(card3, 0, 1, snapGridSize);
 
 
