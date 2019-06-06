@@ -2,7 +2,7 @@ var users = [
     {
         firstname: "Carolyn",
         lastname: "Johnsen",
-        username: "carojohns",
+        username: "CarolynJ",
         email: "carolyn95@outlook.com",
         password: "supersecret123"
     },
@@ -10,7 +10,7 @@ var users = [
     {
         firstname: "Grace",
         lastname: "Palmer",
-        username: "palmface",
+        username: "PalmFace",
         email: "grace.face@gmail.com",
         password: "little87Max"
     },
@@ -18,7 +18,7 @@ var users = [
     {
         firstname: "Benjamin",
         lastname: "Bannerman",
-        username: "benniboi",
+        username: "Benniboy",
         email: "bennisniper2000@yahoo.com",
         password: "benniiscool"
     },
@@ -34,7 +34,7 @@ var users = [
     {
         firstname: "Bernt Johan",
         lastname: "Aspehaug",
-        username: "berntolini",
+        username: "Berntolini",
         email: "bernt@yahoo.com",
         password: "1234"
     }
