@@ -135,6 +135,32 @@ a{
 #test{
 
 }
+/* Styling of user-selector, textbox and button for creating new card */
+.styled-select-container #new-card-container select {
+   display: block;
+    width: 150px;
+    height:40px;
+    color: #646464;
+    background-color: #E5AC91;
+}
+textarea#textbox-card-content {
+    background-color: #E5AC91;
+    color: #F0F0F5;
+    width: 300px;
+    height: 35px;
+    padding-left:15px;
+    font-size: 15pt;
+    border-radius: 5px ;
+}
+#make-cards {
+    position: absolute;
+    top: 170px;
+    left:2%;
+    display: inline-flex;
+}
+
+#make-cards div textarea button {
+}
 
 /*
 Standard box shadow:
