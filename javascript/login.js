@@ -13,10 +13,10 @@ function login() {
     if (!(username == "" && password == "")) {
 
         // Look through array of all users to check if given credentials are valid for any user.
-        for (let i = 0; i < users.length; i++) {
+        for (let i = 0; i < window.users.length; i++) {
 
-            let validUsername = users[i].username;
-            let validPassword = users[i].password;
+            let validUsername = window.users[i].username;
+            let validPassword = window.users[i].password;
 
             if (username == validUsername && password == validPassword) {
 
@@ -32,6 +32,6 @@ function login() {
     }
 
     // Fields are empty.
-    alert("Fields cannot be empty!");
+    alert("Fields cannot be empty.");
     return false;
 }
