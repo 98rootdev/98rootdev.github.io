@@ -68,6 +68,12 @@ html, body {
     border-radius: 5px;
 }
 
+#new-card-container{
+    margin-top: 0px;
+}
+
+
+
 
 /* 
 Standard box shadow:

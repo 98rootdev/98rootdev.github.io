@@ -1,11 +1,4 @@
-users = [
-    {
-        firstname: "a",
-        lastname: "a",
-        username: "a",
-        email: "a",
-        password: "a"
-    },
+var users = [
     {
         firstname: "Carolyn",
         lastname: "Johnsen",
@@ -57,7 +50,7 @@ function createUser() {
 
         console.log(window.users[0]);
 
-        window.location.replace("../pages/index.html");
+        window.location.replace("../pages/login.html");
 
     } else {
         alert("Registration failed, please try again.")
