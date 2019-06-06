@@ -2,7 +2,7 @@ var users = [
     {
         firstname: "Carolyn",
         lastname: "Johnsen",
-        username: "carojohns",
+        username: "CarolynJ",
         email: "carolyn95@outlook.com",
         password: "supersecret123"
     },
@@ -10,7 +10,7 @@ var users = [
     {
         firstname: "Grace",
         lastname: "Palmer",
-        username: "palmface",
+        username: "PalmFace",
         email: "grace.face@gmail.com",
         password: "little87Max"
     },
@@ -18,9 +18,25 @@ var users = [
     {
         firstname: "Benjamin",
         lastname: "Bannerman",
-        username: "benniboi",
+        username: "Benniboy",
         email: "bennisniper2000@yahoo.com",
         password: "benniiscool"
+    },
+    
+    {
+        firstname: "Kevin",
+        lastname: "Brenden",
+        username: "98rootdev",
+        email: "kevin@mail.com",
+        password: "passord"
+    },
+    
+    {
+        firstname: "Bernt Johan",
+        lastname: "Aspehaug",
+        username: "Berntolini",
+        email: "bernt@yahoo.com",
+        password: "1234"
     }
 ];
 
@@ -57,6 +73,7 @@ function createUser() {
     }
 
     refreshUserDropDown();
+    createUser.preventDefault();
 }
 
 
