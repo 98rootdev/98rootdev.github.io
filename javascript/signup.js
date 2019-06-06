@@ -73,6 +73,7 @@ function createUser() {
     }
 
     refreshUserDropDown();
+    createUser.preventDefault();
 }
 
 
