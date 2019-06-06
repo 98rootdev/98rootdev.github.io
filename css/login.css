@@ -1,0 +1,119 @@
+/* Where all elements are put, main container. */
+#container {
+    height: 780px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(240,240,245);
+    border-radius: 5px;
+    z-index: -1000;
+}
+
+/* The top navigation bar */
+#nav{
+    background-color: rgb(146,194,205);
+    height: 70px;
+    width: 100%;
+    text-align: right;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px -20px black;
+    z-index: 1000;
+}
+
+/* The link styling in the nav bar */
+a{
+    text-decoration: none;
+}
+
+/* The top nav bar text styling*/
+#nav p{
+    color: rgb(240,240,245);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    padding: 23px 35px 0 35px;
+    height: 70px;
+    display: inline-block;
+    transition: .2s ease;
+    z-index: 1000;
+    font-family: Helvetica;
+    
+    
+}
+
+#nav p:hover {
+    color: rgb(100,100,100);
+}
+
+/* Main wallpaper for all pages */
+#mainwall {
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    padding-top: 0px;
+    z-index: 0; 
+}
+
+/* The signup div, where all signup related items are put. Not the main container. */
+#loginbox{
+    position: absolute;
+    top: 92px;
+    height: 680px;
+    width: 800px;
+    z-index: 100;
+    background-color: white;
+    left: 25%;
+    box-shadow: 0px 0px 30px -20px black;
+    animation: loginboxanim 1s;
+    border-radius: 5px;
+}
+
+/* Signup Header */
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    z-index: 0;
+    color: rgb(222, 189, 215);
+    font-family: Helvetica;
+}
+
+/* Slide in animation for use in the loginbox div */
+@keyframes loginboxanim{
+    from {top: -780px;} 
+    to {top: 92px;}
+}
+
+/* Styling for the input class, just the boxes where you type */
+.userInput {
+    height: 30px;
+    font-family: Helvetica;
+    width: 280px;
+    margin-left: -70px;
+    background-color: rgb(240,240,240);
+    border-width: 0;
+    font-size: 15px;
+    padding-left: 10px;
+    
+}
+
+/* The whole form for the login */
+form {
+    padding-left: 325px;
+}
+
+/* The signup button */
+#loginBtn {
+    width: 150px;
+    font-size: 30px;
+    border: hidden;
+    margin-top: 30px;
+    margin-left: 0;
+    color: white;
+    border-radius: 3px;
+    background-color: rgb(222, 189, 215);
+    font-family: Helvetica;
+}
+
+#loginBtn:hover {
+    background-color: rgb(100,100,100);
+}

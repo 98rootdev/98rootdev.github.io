@@ -1,0 +1,92 @@
+/* CSS document for recurring elements such as navigation bar and footer */
+
+#container {
+    display: grid;
+    height: 780px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(240,240,245);
+    border-radius: 5px;
+    z-index: -1000;
+}
+
+
+#nav{
+    background-color: rgb(146,194,205);
+    height: 70px;
+    width: 100%;
+    text-align: right;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px -20px black;
+    z-index: 100;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav p{
+    color: rgb(240,240,245);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    padding: 23px 35px 0 12px;
+    height: 70px;
+    display: inline-block;
+    transition: .2s ease;
+    z-index: 1000;
+    font-family: Helvetica;  
+}
+
+#nav p:hover {
+    color: rgb(100,100,100);
+}
+
+#mainwall {
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    padding-top: 0px;
+    z-index: 0; 
+    position: absolute;
+}
+
+#welcomebox{
+    position: absolute;
+    top: 190px;
+    height: 400px;
+    width: 800px;
+    z-index: 100;
+    background-color: white;
+    left: 25%;
+    box-shadow: 0px 0px 30px -20px black;
+}
+
+#infoKanban{
+    font-size: 29px;
+    color: rgb(222, 189, 215);
+    font-family: Helvetica;
+    text-align: center;
+    padding: 0px 200px 200px 200px;
+}
+
+h1{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    z-index: 0;
+    color: rgb(146,194,205);
+    font-family: Helvetica;
+    
+}
+
+/*
+
+Colors:
+
+222, 189, 215 - pink
+146, 194, 205 - dark blue
+279, 174, 146 - orange
+240, 240, 245 - "white"
+
+*/

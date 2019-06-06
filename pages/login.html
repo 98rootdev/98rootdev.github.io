@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="../css/login.css" rel="stylesheet" type="text/css">
+    <script src="../javascript/signup.js"></script>
+    <script src="../javascript/login.js"></script>
+</head>
+<body>
+   
+   <div id="container">
+      
+           <!-- All elements related to sign up is located here -->
+             <div id="loginbox">
+      <!-- Header for the signup box. -->
+      <h1>Log in to your account</h1>
+      
+      <!-- The whole signup from: -->
+         <form id="loginForm" onsubmit="return false">
+          <br> <input class="userInput" type="text" name="username" id="username" placeholder="Username"><br>
+          <br> <input class="userInput" type="text" name="password" id="password" placeholder="Password"><br>
+          <br> <button id="loginBtn" onclick="login()">Log in!</button>
+      </form> 
+    </div>
+       
+       
+    <div id="nav"> <!-- Navigation bar -->
+    
+    <!-- Button that links to mainpage, index-->
+    <a id="home" href="../pages/welcome.html">
+    <p>Home</p></a>
+    </div>
+    
+    <!-- The image we're using for the wallpaper -->
+    <img id="mainwall" src="../images/gradientimage.jpg">
+ </div>
+</body>
+</html>
