@@ -48,10 +48,10 @@ function test() {
     snapCardToColumnAndGridAtIndex(card1, 0, 0, snapGridSize);
 
     let card2 = createCard("Figure out the meaning of life", users[1].username, document.getElementById("doing-container"));
-    snapCardToColumnAndGridAtIndex(card2, 0, 0, snapGridSize);
+    snapCardToColumnAndGridAtIndex(card2, 0, 1, snapGridSize);
 
     let card3 = createCard("Run nuclear reactor test", users[2].username);
-    snapCardToColumnAndGridAtIndex(card3, 0, 1, snapGridSize);
+    snapCardToColumnAndGridAtIndex(card3, 0, 2, snapGridSize);
 
 
     setupCreateCard();
