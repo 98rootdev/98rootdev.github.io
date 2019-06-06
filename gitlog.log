@@ -1,0 +1,994 @@
+commit 4ec4e577b2a49f5b6e17022a8edefd24e1e536c2
+Merge: 2648b8e d0b0c94
+Author: Bernt Johan Aspehaug <baspehaug@icloud.com>
+Date:   Thu Jun 6 23:52:39 2019 +0200
+
+    Merge branch 'kevin'
+
+commit 2648b8e0d37584df1a43cf5f3b5a77a1574655ec
+Author: Bernt Johan Aspehaug <baspehaug@icloud.com>
+Date:   Thu Jun 6 23:51:50 2019 +0200
+
+    Initialize card in separate indexes
+
+ javascript/index.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 0ef3d0d478b9b817da436cccaa36e37f3ba4ef63
+Merge: 43446b2 32f4e1d
+Author: Bernt Johan Aspehaug <baspehaug@icloud.com>
+Date:   Thu Jun 6 23:45:29 2019 +0200
+
+    Merge branch 'DragNDrop'
+
+commit 43446b24bea10a112bafbbcb439f6ed9617424e8
+Author: Bernt Johan Aspehaug <baspehaug@icloud.com>
+Date:   Thu Jun 6 23:42:31 2019 +0200
+
+    Update gitignore
+
+ .gitignore | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit d0b0c948530543be8217803aea809c346255e63c
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 22:18:28 2019 +0200
+
+    Wallpaper fix in login, signup and welcome.css
+
+ css/login.css   | 2 +-
+ css/signup.css  | 4 ++--
+ css/welcome.css | 2 +-
+ 3 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 983c3039f47f367ceeacffa90c198e8f7c59bd14
+Author: Kevin Brenden <42612102+98rootdev@users.noreply.github.com>
+Date:   Thu Jun 6 21:54:38 2019 +0200
+
+    Delete .DS_Store
+
+ images/.DS_Store | Bin 6148 -> 0 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 567e3721e2afb150c2561266c9e00127fb9e90d3
+Author: Kevin Brenden <42612102+98rootdev@users.noreply.github.com>
+Date:   Thu Jun 6 21:54:04 2019 +0200
+
+    Delete .DS_Store
+
+ pages/.DS_Store | Bin 6148 -> 0 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 42ad2459e8ac39577a7df7b5868a9304f8e7cd9c
+Author: Kevin Brenden <42612102+98rootdev@users.noreply.github.com>
+Date:   Thu Jun 6 21:52:15 2019 +0200
+
+    Delete .DS_Store
+
+ .DS_Store | Bin 8196 -> 0 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 006c96ee6183b11780661c65443405116d7b3efd
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 21:19:14 2019 +0200
+
+    Done commenting
+
+ css/login.css    |  4 ++--
+ css/main.css     | 13 +++++++------
+ css/signup.css   |  4 ++--
+ css/welcome.css  | 16 ++++++++--------
+ pages/index.html | 12 +++++++-----
+ 5 files changed, 26 insertions(+), 23 deletions(-)
+
+commit ea7f1e438e31e9b1919b1737c73a73987c000f8b
+Merge: ec3519f ce64d72
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 20:27:28 2019 +0200
+
+    Merge branch 'master' into kevin
+
+commit ec3519f5d4f0e5e201136be5b1cbecb65169484e
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 20:21:25 2019 +0200
+
+    index commenting
+
+ pages/index.html | 13 ++++++++-----
+ 1 file changed, 8 insertions(+), 5 deletions(-)
+
+commit 6039cb5ffe7cd75338f791e323759260922a6d0f
+Merge: 42755b2 a7e6850
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 20:15:35 2019 +0200
+
+    Merge remote-tracking branch 'Prosjektoppgave-gruppe-41/DragNDrop' into kevin
+
+commit 42755b271553918b8ac96817f8515935d6ce3435
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 20:15:17 2019 +0200
+
+    Lots of commenting done
+
+ .DS_Store            | Bin 8196 -> 8196 bytes
+ README/README.md     |   3 +--
+ javascript/login.js  |  24 ++++++++++++------------
+ javascript/signup.js |  17 ++++++++++-------
+ pages/.DS_Store      | Bin 6148 -> 6148 bytes
+ pages/boards.html    |   0
+ pages/login.html     |   7 ++++---
+ pages/welcome.html   |   7 ++++---
+ 8 files changed, 31 insertions(+), 27 deletions(-)
+
+commit 32f4e1d18975618f9ead0dd26c37c72ae6d6889c
+Author: Bernt Johan Aspehaug <baspehaug@icloud.com>
+Date:   Thu Jun 6 19:27:49 2019 +0200
+
+    Change test-card-text
+
+ javascript/index.js | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit a7e6850acaa2625fbf5a0d4be9fda18e08c78ead
+Author: Bernt Johan Aspehaug <baspehaug@icloud.com>
+Date:   Thu Jun 6 19:19:32 2019 +0200
+
+    Changes usernames for testusers
+
+ javascript/signup.js | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 1c79590c957a57fa0dbe8ae5ea2179941e7f45ef
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 19:14:13 2019 +0200
+
+    Fix for "reset cards"
+
+ css/main.css | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 330b864568fa8cca89d6d44cd7ff8fda54f1b915
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 19:11:14 2019 +0200
+
+    Fix header
+
+ css/main.css     | 4 ++--
+ pages/index.html | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 7c5c56c80b50bf42c5454403e9d7ed50e2441536
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 18:55:43 2019 +0200
+
+    WALLPAPER ON INDEX
+    
+    and kanban 2.0 header
+
+ css/main.css         | 30 +++++++++++++++++++++---------
+ javascript/signup.js |  1 +
+ pages/index.html     | 14 +++++++-------
+ 3 files changed, 29 insertions(+), 16 deletions(-)
+
+commit 78cf0c5ad53bc611fed2771dd3d9cb0f3cb785e7
+Merge: c4d02cd 21f9509
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 18:13:25 2019 +0200
+
+    Merge remote-tracking branch 'Prosjektoppgave-gruppe-41/DragNDrop' into kevin
+
+commit 21f95095d773ca34afb89e467dcc7344e63a561f
+Author: Bernt Johan Aspehaug <baspehaug@icloud.com>
+Date:   Thu Jun 6 18:10:27 2019 +0200
+
+    Styling of new card-area
+
+ css/main.css     | 26 ++++++++++++++++++++++++++
+ pages/index.html | 19 ++++++++++++-------
+ 2 files changed, 38 insertions(+), 7 deletions(-)
+
+commit c4d02cdcb1eed61cec840251bd6506d9543b8c70
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 16:05:04 2019 +0200
+
+    idk
+
+ css/.DS_Store    | Bin 0 -> 6148 bytes
+ css/main.css     |   2 +-
+ pages/index.html |   5 ++---
+ 3 files changed, 3 insertions(+), 4 deletions(-)
+
+commit 3efd6d9a39eaa58a6a11822fe21d336bb75073f9
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 15:57:00 2019 +0200
+
+    Removed user page altogether
+
+ css/user.css    | 162 --------------------------------------------------------
+ pages/.DS_Store | Bin 6148 -> 6148 bytes
+ pages/user.html |  44 ---------------
+ 3 files changed, 206 deletions(-)
+
+commit d1c5161cd7721ab71ea78e7281141d6f841d6daa
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 14:51:59 2019 +0200
+
+    Final touches
+
+ css/kanbanboard.css  |  2 +-
+ css/login.css        |  2 +-
+ css/signup.css       | 21 +--------------------
+ javascript/index.js  |  6 +++---
+ javascript/signup.js | 16 ++++++++++++++++
+ pages/index.html     |  8 ++++----
+ 6 files changed, 26 insertions(+), 29 deletions(-)
+
+commit 7ca1cbc5cb01f300afebe5f30b34107ba79eef9c
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 11:37:54 2019 +0200
+
+    Well okay
+
+ css/kanbanboard.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 05766c4254750aa9bbd0cb5668fc94749a635ac2
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed Jun 5 18:04:12 2019 +0200
+
+    Fix
+
+ pages/.DS_Store | Bin 6148 -> 6148 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit ce64d726491f62afec7e07866783bf4b772b8ef4
+Merge: 75b7d16 6a5bf0b
+Author: Berntolini <42612740+Berntolini@users.noreply.github.com>
+Date:   Thu Jun 6 14:33:13 2019 +0200
+
+    Merge pull request #2 from 98rootdev/kevin
+    
+    Merge
+
+commit 75b7d166916e972a20b3a5706799f6cf30ea76f1
+Merge: 7c53b25 62b5903
+Author: Kevin Brenden <42612102+98rootdev@users.noreply.github.com>
+Date:   Thu Jun 6 14:30:31 2019 +0200
+
+    Merge pull request #1 from 98rootdev/DragNDrop
+    
+    Merge DnD
+
+commit ea798397905c512a75011e31fa8108af31991bc6
+Merge: a59a9f8 62b5903
+Author: Bernt Johan Aspehaug <baspehaug@icloud.com>
+Date:   Thu Jun 6 14:28:46 2019 +0200
+
+    Merge remote-tracking branch 'origin/DragNDrop' into DragNDrop
+
+commit a59a9f88cbb39be646678f1424a153d5172b3832
+Author: Bernt Johan Aspehaug <baspehaug@icloud.com>
+Date:   Thu Jun 6 14:20:48 2019 +0200
+
+    Change from rgb() to hex - and clean up colour template
+
+ css/kanbanboard.css | 35 ++++++++++++++++++++++++-----------
+ css/login.css       | 47 ++++++++++++++++++++++++++++++++++++++---------
+ css/main.css        | 48 ++++++++++++++++++++++++++++++++----------------
+ css/signup.css      | 39 ++++++++++++++++++++++++++++++++-------
+ css/user.css        | 42 +++++++++++++++++++++++++++++++++---------
+ css/welcome.css     | 35 +++++++++++++++++++++++++----------
+ javascript/index.js |  2 +-
+ 7 files changed, 185 insertions(+), 63 deletions(-)
+
+commit 62b59033ce4ec708238d014c95faf71fd3e237d4
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 12:52:18 2019 +0200
+
+    Small changes generally
+
+ css/kanbanboard.css  |  6 ++++++
+ javascript/login.js  |  8 ++++----
+ javascript/signup.js | 11 ++---------
+ pages/index.html     | 26 +++++++++++---------------
+ pages/signup.html    |  4 ++--
+ 5 files changed, 25 insertions(+), 30 deletions(-)
+
+commit 6a5bf0b5f910409fde5d5bd11d706aef67a6f1a8
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu Jun 6 11:37:54 2019 +0200
+
+    Well okay
+
+ css/kanbanboard.css | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 358b3618ea87b39bc901d3fe7c43a441fee40246
+Author: Bernt Johan Aspehaug <baspehaug@icloud.com>
+Date:   Wed Jun 5 19:48:11 2019 +0200
+
+    Add username on card. Add creation of new cards.
+
+ javascript/index.js  |  52 +++++++++++++++++++++---
+ javascript/login.js  |  51 ++++++++++++++++--------
+ javascript/signup.js | 109 +++++++++++++++++++++++++++++++--------------------
+ pages/index.html     |   8 ++++
+ pages/login.html     |   7 ++--
+ pages/signup.html    |   1 +
+ 6 files changed, 161 insertions(+), 67 deletions(-)
+
+commit 55d7ac0f6edfb4dd2f729ff0bd9f79b1112c2e92
+Author: Bernt Johan <baspehaug@icloud.com>
+Date:   Wed Jun 5 18:09:51 2019 +0200
+
+    Update gitignore
+
+ .gitignore | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 1505582df44b9aff675d85492fe631a7f577d3dd
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed Jun 5 18:04:12 2019 +0200
+
+    Fix
+
+ pages/.DS_Store | Bin 6148 -> 6148 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 1fa0c8b9ffa7aa4396cabdd2d19bd1ee3454981a
+Merge: a24afd9 2915bc8
+Author: Bernt Johan <baspehaug@icloud.com>
+Date:   Wed Jun 5 17:59:52 2019 +0200
+
+    Merge remote-tracking branch 'origin/kevin' into DragNDrop
+
+commit 2915bc82e6c8249f2a5c4a848a41c684204b12ab
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed Jun 5 17:57:37 2019 +0200
+
+    WOOOORKING
+
+ css/kanbanboard.css | 2 +-
+ css/main.css        | 2 +-
+ pages/index.html    | 7 +++----
+ 3 files changed, 5 insertions(+), 6 deletions(-)
+
+commit c4912df080fc27264a67edb4a000f0103746cc8a
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed Jun 5 17:15:21 2019 +0200
+
+    Main.css and kanbanboard.css updates
+    
+    Fixed border, and cleaned up a bit
+
+ css/kanbanboard.css |  46 ++++++++++++------
+ css/main.css        |  14 +++++-
+ css/user.css        | 138 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ javascript/index.js |   4 +-
+ pages/index.html    |   4 +-
+ pages/user.html     |  44 +++++++++++++++++
+ 6 files changed, 229 insertions(+), 21 deletions(-)
+
+commit d4757900ef24ea727f05a6ff20d4ae80d4383f6c
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed Jun 5 15:12:19 2019 +0200
+
+    Revert "bull"
+    
+    This reverts commit 8a0a563a889736dbe47e74219bd3a04201ec0b5d.
+
+ .DS_Store       | Bin 8196 -> 8196 bytes
+ pages/.DS_Store | Bin 6148 -> 6148 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 2a922e922a82f6384108f2a418822be0f1dd75da
+Merge: 8a0a563 a24afd9
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed Jun 5 15:12:33 2019 +0200
+
+    Merge remote-tracking branch 'Prosjektoppgave-gruppe-41/DragNDrop' into kevin
+
+commit 8a0a563a889736dbe47e74219bd3a04201ec0b5d
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed Jun 5 15:12:19 2019 +0200
+
+    bull
+
+ .DS_Store       | Bin 8196 -> 8196 bytes
+ pages/.DS_Store | Bin 6148 -> 6148 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit a24afd97e0db19c2bd15506c1055afa4ba961f99
+Author: Bernt Johan <baspehaug@icloud.com>
+Date:   Wed Jun 5 14:59:24 2019 +0200
+
+    Minor updates in CSS.
+
+ css/kanbanboard.css | 69 +++++++++++++++++++++++++++++++++++++++++
+ css/main.css        | 14 +++++----
+ javascript/index.js |  4 +--
+ pages/index.html    | 89 +++++++++++++++++++++++++++--------------------------
+ pages/login.html    |  8 ++---
+ pages/signup.html   |  8 ++---
+ pages/welcome.html  |  8 ++---
+ 7 files changed, 136 insertions(+), 64 deletions(-)
+
+commit d38f061c66631e720e8289522cf49286b4d22f1d
+Author: Bernt Johan <baspehaug@icloud.com>
+Date:   Tue Jun 4 21:12:26 2019 +0200
+
+    Adds drag and drop with comments
+
+ javascript/index.js | 218 ++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 218 insertions(+)
+
+commit fa0fcf63410c9ba473acece5199fff88ba6e0459
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue Jun 4 19:43:07 2019 +0200
+
+    Big updates to login.js
+    
+    Not done, but a start
+
+ javascript/login.js  | 24 +++++++++++++-----------
+ javascript/signup.js | 30 +++++++++++++++---------------
+ 2 files changed, 28 insertions(+), 26 deletions(-)
+
+commit 88b948adb072f3bbdbeb48dec4582717bac04384
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue Jun 4 19:23:39 2019 +0200
+
+    Updates to login page
+
+ javascript/login.js  | 18 +++++++++++++-----
+ javascript/signup.js | 26 +++++++++++++++++++++-----
+ 2 files changed, 34 insertions(+), 10 deletions(-)
+
+commit 9f5ba02508f6d01582736466004c1fa9cbe228f1
+Author: Bernt Johan <baspehaug@icloud.com>
+Date:   Tue Jun 4 18:31:18 2019 +0200
+
+    Adds divs for boards
+
+ pages/index.html | 26 +++++++++++++++++++++++---
+ 1 file changed, 23 insertions(+), 3 deletions(-)
+
+commit 26f7d6ff88f24028db60e8217acda9582970483e
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue Jun 4 18:25:00 2019 +0200
+
+    Registration works :)
+
+ javascript/signup.js | 2 +-
+ pages/signup.html    | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit f13531493676ced713aab93ebaca9d535f5e7749
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue Jun 4 18:13:05 2019 +0200
+
+    Css update
+
+ css/main.css         |  2 +-
+ javascript/signup.js | 13 ++++++++++---
+ pages/signup.html    |  2 +-
+ 3 files changed, 12 insertions(+), 5 deletions(-)
+
+commit 8e883a5305cd0a42f502a6826560ae22b46d51f7
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue Jun 4 17:09:03 2019 +0200
+
+    Update to signup js
+
+ javascript/signup.js | 58 ++++++++++++++++------------------------------------
+ pages/signup.html    | 14 ++++++-------
+ 2 files changed, 25 insertions(+), 47 deletions(-)
+
+commit 4d38c20df45423cd258d021218e590c364a0c5a4
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue Jun 4 15:47:56 2019 +0200
+
+    CSS updates
+    
+    Mainly the nav bar, fonts and shadows
+
+ css/login.css   |  6 ++++--
+ css/main.css    | 19 ++++++++++---------
+ css/signup.css  |  5 ++---
+ css/welcome.css |  9 ++++-----
+ 4 files changed, 20 insertions(+), 19 deletions(-)
+
+commit 4900b458430df0bca86f64d20df2599688a9f3e5
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue Jun 4 15:05:15 2019 +0200
+
+    JSJSJSJSJSJS
+
+ javascript/signup.js | 13 ++++++++++++-
+ pages/signup.html    | 12 ++++++------
+ 2 files changed, 18 insertions(+), 7 deletions(-)
+
+commit 6600b2d1124d6f5d1c52bfe2a906ce1cd0653865
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 12:21:26 2019 +0200
+
+    Deleted extra welcome page
+
+ pages/index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 28a1b9d6a18fe377d4918dba2527940c984bd6b5
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 12:19:54 2019 +0200
+
+    Fixed
+
+ .DS_Store    | Bin 8196 -> 8196 bytes
+ Welcome.html |  10 ----------
+ 2 files changed, 10 deletions(-)
+
+commit 2b9e6aee8b1f99a50c4d7a339be94a82431b56cf
+Merge: 6c45858 bb98472
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 12:17:53 2019 +0200
+
+    Merge remote-tracking branch 'Prosjektoppgave-gruppe-41/kevin' into kevin
+
+commit 6c45858491df9c6d37cb226bcd2fdcbf471cbd5b
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 12:16:58 2019 +0200
+
+    d
+
+ .DS_Store | Bin 8196 -> 8196 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit c607399eae04194e057c050b9a7635680f46a8b8
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 12:09:52 2019 +0200
+
+    Working as of 03.06.19
+
+ README.md => README/README.md  |  0
+ main.css => css/main.css       |  0
+ css/template.css               | 49 ------------------------------------------
+ index.html => pages/index.html |  6 +++---
+ pages/template.html            | 24 ---------------------
+ 5 files changed, 3 insertions(+), 76 deletions(-)
+
+commit 766a0f33821b5a4354f4b4c8956750b799d72a39
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 11:59:19 2019 +0200
+
+    MERGED
+    
+    Needed files are merged, safe to pull
+
+ index.html        | 19 +++++++++++-
+ main.css          | 88 +++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ pages/boards.html |  0
+ 3 files changed, 104 insertions(+), 3 deletions(-)
+
+commit a785cb9d70dc424483ed180e4032a691bd060afb
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 11:21:55 2019 +0200
+
+    Nothing
+
+ css/welcome.css | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 00611001986f5db30dc00f23ffde3d6a5371465b
+Author: Kevin <kevbra98@gmail.com>
+Date:   Sat Jun 1 01:29:36 2019 +0200
+
+    Visuals
+
+ .DS_Store            | Bin 8196 -> 8196 bytes
+ index.html           |  57 +++++++++++++-----------------------------
+ javascript/login.js  |   8 ++++++
+ javascript/signup.js |   7 +++++-
+ main.css             |  68 ++-------------------------------------------------
+ pages/login.html     |  10 ++++----
+ pages/signup.html    |  18 +++++++-------
+ pages/welcome.html   |   3 ---
+ 8 files changed, 47 insertions(+), 124 deletions(-)
+
+commit 139a4ec85e99fe0801647693b94b55e2fa8228fe
+Author: Kevin <kevbra98@gmail.com>
+Date:   Fri May 31 11:51:18 2019 +0200
+
+    Updates to signup.js
+
+ javascript/signup.js | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+commit 4e03c8854f253cb132cad446a1dc2c97b2bbf4e6
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu May 30 23:49:49 2019 +0200
+
+    Big visual updates, not as big backend
+    
+    Still working on registration and login functionality.
+
+ css/login.css        | 56 ++++++++++++++++++++++++++++++++++++++++++++++++----
+ css/signup.css       |  9 ++++++---
+ index.js             | 22 ---------------------
+ javascript/index.js  |  0
+ javascript/login.js  |  0
+ javascript/signup.js | 27 +++++++++++++++++++++++++
+ pages/login.html     | 31 ++++++++++++++++-------------
+ pages/signup.html    | 20 +++++++++----------
+ 8 files changed, 111 insertions(+), 54 deletions(-)
+
+commit 72870bff35d96c6ee68bcebb148cc9cc1bc5c46a
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu May 30 22:52:18 2019 +0200
+
+    Template
+
+ css/template.css    |  49 +++++++++++++++++++++++++++++++++++++++++++++++++
+ pages/.DS_Store     | Bin 6148 -> 6148 bytes
+ pages/template.html |  24 ++++++++++++++++++++++++
+ 3 files changed, 73 insertions(+)
+
+commit 3e4857d269aad44b72acad6263af642ac6f6fac4
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 15:31:20 2019 +0200
+
+    Login page styling almost done
+
+ css/signup.css    | 27 +++++++++++++++++++--------
+ index.js          | 22 ++++++++++++++++++++++
+ pages/login.html  |  7 ++++---
+ pages/signup.html | 52 +++++++++++++++++++++++++++++++++++++---------------
+ 4 files changed, 82 insertions(+), 26 deletions(-)
+
+commit 04bee199dc8fb2b545507f66f05fc53afee7229e
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 14:01:49 2019 +0200
+
+    Big update, login, signup
+    
+    New pages, login.css and signup.css
+
+ css/login.css      | 20 ++++++++++++++-
+ css/signup.css     | 73 ++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ css/welcome.css    | 12 ++++++++-
+ pages/login.html   | 12 +++++++++
+ pages/signup.html  | 16 ++++++++++++
+ pages/welcome.html |  2 ++
+ 6 files changed, 131 insertions(+), 4 deletions(-)
+
+commit b4914bf12a61dd85c9932fe36a793bf16bc9b987
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 12:33:45 2019 +0200
+
+    Made a css and html preset template, copy to other pages.
+
+ css/login.css     | 51 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ css/signup.css    | 51 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ pages/login.html  | 22 ++++++++++++++++++++++
+ pages/signup.html | 23 +++++++++++++++++++++++
+ 4 files changed, 147 insertions(+)
+
+commit 1e93e5b859640a3e76159b9d969d03cc9eba17b6
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 12:26:41 2019 +0200
+
+    Kind of merge
+
+ css/welcome.css |  4 +---
+ index.html      | 12 ++++++----
+ main.css        | 73 +++++++++++++++++++++++++++++++++++++++++++++++++++++----
+ 3 files changed, 76 insertions(+), 13 deletions(-)
+
+commit 19445f865847612aa842e5e6f8b345b317f75fe6
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 12:15:18 2019 +0200
+
+    Update from Bernt index
+
+ index.html | 22 +++++++++++++++++++++-
+ 1 file changed, 21 insertions(+), 1 deletion(-)
+
+commit 43860da9e6463ef47bd06dfa82284f6435840c97
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 12:10:28 2019 +0200
+
+    CSS progress welcome.page
+
+ css/welcome.css | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+
+commit c0b4cb49a52fc1a2c947a4a4a910a073a573d97c
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue May 28 17:34:00 2019 +0200
+
+    Updates to welcome, both html and css
+
+ .DS_Store          | Bin 6148 -> 8196 bytes
+ css/welcome.css    |  75 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ index.html         |   8 +-----
+ pages/.DS_Store    | Bin 0 -> 6148 bytes
+ pages/login.html   |   0
+ pages/signup.html  |   0
+ pages/welcome.html |  33 +++++++++++++++++++++++
+ 7 files changed, 109 insertions(+), 7 deletions(-)
+
+commit 94ee7128d42cb7cefd7c2101f3b6415ddd173290
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue May 28 15:48:19 2019 +0200
+
+    Update to index.html
+
+ .DS_Store                | Bin 6148 -> 6148 bytes
+ images/.DS_Store         | Bin 0 -> 6148 bytes
+ images/gradientimage.jpg | Bin 0 -> 163352 bytes
+ index.html               |  14 ++++++++++----
+ main.css                 |  15 ++++++++++++++-
+ 5 files changed, 24 insertions(+), 5 deletions(-)
+
+commit bb984727178aff8b376c15042e2d705be2ee4e5e
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 12:16:58 2019 +0200
+
+    d
+
+ .DS_Store | Bin 8196 -> 8196 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 3e57eb8497dd6d3af0af6b6619fdd7e0e1c33067
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 12:09:52 2019 +0200
+
+    Working as of 03.06.19
+
+ README.md => README/README.md  |  0
+ main.css => css/main.css       |  0
+ css/template.css               | 49 ------------------------------------------
+ index.html => pages/index.html |  6 +++---
+ pages/template.html            | 24 ---------------------
+ 5 files changed, 3 insertions(+), 76 deletions(-)
+
+commit 8adbabad4020a94a1542db8ca2cfae8432c75a7c
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 11:59:19 2019 +0200
+
+    MERGED
+    
+    Needed files are merged, safe to pull
+
+ index.html        | 19 +++++++++++-
+ main.css          | 88 +++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ pages/boards.html |  0
+ 3 files changed, 104 insertions(+), 3 deletions(-)
+
+commit ed18815e6f83009556ead1e45d83080d7870735b
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon Jun 3 11:21:55 2019 +0200
+
+    Nothing
+
+ css/welcome.css | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 33f44ee55b637dc3263b737336fd9cb3bf96f18c
+Author: Kevin <kevbra98@gmail.com>
+Date:   Sat Jun 1 01:29:36 2019 +0200
+
+    Visuals
+
+ .DS_Store            | Bin 8196 -> 8196 bytes
+ index.html           |  57 +++++++++++++-----------------------------
+ javascript/login.js  |   8 ++++++
+ javascript/signup.js |   7 +++++-
+ main.css             |  68 ++-------------------------------------------------
+ pages/login.html     |  10 ++++----
+ pages/signup.html    |  18 +++++++-------
+ pages/welcome.html   |   3 ---
+ 8 files changed, 47 insertions(+), 124 deletions(-)
+
+commit b816f14a2a33db78c52f2aba3b6df9870595f9c0
+Author: Kevin <kevbra98@gmail.com>
+Date:   Fri May 31 11:51:18 2019 +0200
+
+    Updates to signup.js
+
+ javascript/signup.js | 14 +++++++-------
+ 1 file changed, 7 insertions(+), 7 deletions(-)
+
+commit 4e72e25083e2503d8746c036af060b81e78165b1
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu May 30 23:49:49 2019 +0200
+
+    Big visual updates, not as big backend
+    
+    Still working on registration and login functionality.
+
+ css/login.css        | 56 ++++++++++++++++++++++++++++++++++++++++++++++++----
+ css/signup.css       |  9 ++++++---
+ index.js             | 22 ---------------------
+ javascript/index.js  |  0
+ javascript/login.js  |  0
+ javascript/signup.js | 27 +++++++++++++++++++++++++
+ pages/login.html     | 31 ++++++++++++++++-------------
+ pages/signup.html    | 20 +++++++++----------
+ 8 files changed, 111 insertions(+), 54 deletions(-)
+
+commit 2890766fd6b86087f1ab116d07995ee011b0a932
+Author: Kevin <kevbra98@gmail.com>
+Date:   Thu May 30 22:52:18 2019 +0200
+
+    Template
+
+ css/template.css    |  49 +++++++++++++++++++++++++++++++++++++++++++++++++
+ pages/.DS_Store     | Bin 6148 -> 6148 bytes
+ pages/template.html |  24 ++++++++++++++++++++++++
+ 3 files changed, 73 insertions(+)
+
+commit 3bf91c254def50f9c056b11b41105cfc63e84718
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 15:31:20 2019 +0200
+
+    Login page styling almost done
+
+ css/signup.css    | 27 +++++++++++++++++++--------
+ index.js          | 22 ++++++++++++++++++++++
+ pages/login.html  |  7 ++++---
+ pages/signup.html | 52 +++++++++++++++++++++++++++++++++++++---------------
+ 4 files changed, 82 insertions(+), 26 deletions(-)
+
+commit bc17f180a44f9ea127400af315cbc27432af1b3e
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 14:01:49 2019 +0200
+
+    Big update, login, signup
+    
+    New pages, login.css and signup.css
+
+ css/login.css      | 20 ++++++++++++++-
+ css/signup.css     | 73 ++++++++++++++++++++++++++++++++++++++++++++++++++++--
+ css/welcome.css    | 12 ++++++++-
+ pages/login.html   | 12 +++++++++
+ pages/signup.html  | 16 ++++++++++++
+ pages/welcome.html |  2 ++
+ 6 files changed, 131 insertions(+), 4 deletions(-)
+
+commit bacae3ab5303a381a3e8a56e7897d478936a5193
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 12:33:45 2019 +0200
+
+    Made a css and html preset template, copy to other pages.
+
+ css/login.css     | 51 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ css/signup.css    | 51 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ pages/login.html  | 22 ++++++++++++++++++++++
+ pages/signup.html | 23 +++++++++++++++++++++++
+ 4 files changed, 147 insertions(+)
+
+commit 353103c38f85b224f9f1e616931277e682f4b98f
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 12:26:41 2019 +0200
+
+    Kind of merge
+
+ css/welcome.css |  4 +---
+ index.html      | 12 ++++++----
+ main.css        | 73 +++++++++++++++++++++++++++++++++++++++++++++++++++++----
+ 3 files changed, 76 insertions(+), 13 deletions(-)
+
+commit 3331d02ff343c07b45cafbd8e0e6d08e99b44548
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 12:15:18 2019 +0200
+
+    Update from Bernt index
+
+ index.html | 22 +++++++++++++++++++++-
+ 1 file changed, 21 insertions(+), 1 deletion(-)
+
+commit 38ca173f0781cba7a5dc98c3af508b997ee8ec7a
+Author: Kevin <kevbra98@gmail.com>
+Date:   Wed May 29 12:10:28 2019 +0200
+
+    CSS progress welcome.page
+
+ css/welcome.css | 12 ++++++++++--
+ 1 file changed, 10 insertions(+), 2 deletions(-)
+
+commit 90a013f30d669c0bd2f8de4034a74b5b46fd310c
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue May 28 17:34:00 2019 +0200
+
+    Updates to welcome, both html and css
+
+ .DS_Store          | Bin 6148 -> 8196 bytes
+ css/welcome.css    |  75 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ index.html         |   8 +-----
+ pages/.DS_Store    | Bin 0 -> 6148 bytes
+ pages/login.html   |   0
+ pages/signup.html  |   0
+ pages/welcome.html |  33 +++++++++++++++++++++++
+ 7 files changed, 109 insertions(+), 7 deletions(-)
+
+commit f2a6d8dc3a977fb2ffe5ee4cf2b426555bcec71c
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue May 28 15:48:19 2019 +0200
+
+    Update to index.html
+
+ .DS_Store                | Bin 6148 -> 6148 bytes
+ images/.DS_Store         | Bin 0 -> 6148 bytes
+ images/gradientimage.jpg | Bin 0 -> 163352 bytes
+ index.html               |  14 ++++++++++----
+ main.css                 |  15 ++++++++++++++-
+ 5 files changed, 24 insertions(+), 5 deletions(-)
+
+commit 7c53b25f5284c9e67168ef31ec196ed55ea7c303
+Author: Bernt Johan <baspehaug@icloud.com>
+Date:   Tue May 28 15:44:42 2019 +0200
+
+    create welcome-page
+
+ Welcome.html | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+commit 0d934e61aa32a55295cea16edc02458f14d44648
+Author: Bernt Johan <baspehaug@icloud.com>
+Date:   Tue May 28 14:56:53 2019 +0200
+
+    Add color-pallet in bottom of main.css
+
+ index.html |  4 +++-
+ main.css   | 15 ++++++++++++++-
+ 2 files changed, 17 insertions(+), 2 deletions(-)
+
+commit 8ac673f91805abf7cfa33d09da86e4f7e133ce9c
+Author: Kevin <kevbra98@gmail.com>
+Date:   Tue May 28 14:43:46 2019 +0200
+
+    Comment
+
+ index.html | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit b47d5e4160220034a3b218abf348176a282e7523
+Author: Bernt Johan <baspehaug@icloud.com>
+Date:   Tue May 28 14:40:47 2019 +0200
+
+    Tiny progress on main-elements
+
+ index.html | 21 +++++++++++++++++----
+ main.css   | 24 ++++++++++++++++++++++++
+ 2 files changed, 41 insertions(+), 4 deletions(-)
+
+commit 04accd5346d42b566b66406496b5402dc81989ae
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon May 27 13:29:44 2019 +0200
+
+    Html oppsett
+
+ index.html | 12 ++++++++++++
+ 1 file changed, 12 insertions(+)
+
+commit 8a85a62db3d95d8a45fd2cb7f8199de76106069e
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon May 27 11:59:18 2019 +0200
+
+    Update
+
+ .DS_Store  | Bin 0 -> 6148 bytes
+ README.md  |   1 +
+ index.html |   0
+ index.js   |   0
+ main.css   |   0
+ 5 files changed, 1 insertion(+)
+
+commit 16fcbf873647c8b8fc4803d1b28695155331e2ee
+Author: Kevin <kevbra98@gmail.com>
+Date:   Mon May 27 11:31:00 2019 +0200
+
+    Initial commit
+
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
